@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tute-dude.github.io/static/css/main.965174f1.css",
+    "main.js": "/tute-dude.github.io/static/js/main.763a89cc.js",
+    "static/js/787.24b72e4f.chunk.js": "/tute-dude.github.io/static/js/787.24b72e4f.chunk.js",
+    "static/media/image 1.svg": "/tute-dude.github.io/static/media/image 1.f4257e228bd4b2498a09e36750514a90.svg",
+    "index.html": "/tute-dude.github.io/index.html",
+    "main.965174f1.css.map": "/tute-dude.github.io/static/css/main.965174f1.css.map",
+    "main.763a89cc.js.map": "/tute-dude.github.io/static/js/main.763a89cc.js.map",
+    "787.24b72e4f.chunk.js.map": "/tute-dude.github.io/static/js/787.24b72e4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.965174f1.css",
+    "static/js/main.763a89cc.js"
+  ]
+}
