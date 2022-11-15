@@ -1,0 +1,61 @@
+.referral-wallet-cont {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 187px;
+}
+.referral-code-heading {
+  color: #800080;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 2px;
+}
+.referral-code {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75em;
+  margin-left: 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.referral-code-container {
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 10px;
+  width: 8.5vw;
+}
+
+.wallet-balance-heading {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #800080;
+  margin: 0;
+}
+.wallet-container {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+  width: 145px;
+  height: 85px;
+  left: 1034px;
+  top: 151px;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  margin-top: 21.28px;
+}
+.wallet-container p {
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .referral-code-container {
+    width: 38vw;
+  }
+  .wallet-container {
+    height: 80px;
+  }
+  .referral-wallet-cont {
+    margin-right: 35px;
+  }
+}

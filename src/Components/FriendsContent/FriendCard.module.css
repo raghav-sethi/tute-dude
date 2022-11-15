@@ -1,0 +1,68 @@
+.card-container {
+  width: 358px;
+  height: 228px;
+
+  /* NEW GRADIENT 2 */
+
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+
+  color: white;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+.card-container p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.amount-span {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  line-height: 36px;
+}
+.name-date-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-date-section h4 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.name-date-section p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.course-enrollment-section h6 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 10px 0;
+}
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.course-enrollment-section {
+  margin-bottom: 33px;
+}
+@media (max-width: 480px) {
+  .card-container {
+    width: 290px;
+    height: 228px;
+  }
+  .course-list {
+    margin-right: 0;
+  }
+}
